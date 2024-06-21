@@ -143,8 +143,8 @@ class methods {
         cy.get(selector, { timeout: extraTimeOut }).should('be.visible');
     }
 
-    VisibilityofElementIndex(selector) {
-        cy.get(selector, { timeout: extraTimeOut }).eq(0).should('be.visible');
+    VisibilityofElementIndex(selector,int) {
+        cy.get(selector, { timeout: extraTimeOut }).eq(int).should('be.visible');
     }
 
     VisibilityofElement1(selector, text) {
