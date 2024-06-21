@@ -1,0 +1,23 @@
+{
+  "name": "test_file",
+  "version": "1.0.0",
+  "description": "1) Clone `automation-cypress` repo to your local machine -> https://github.com/Slashbit-Technologies/automation-cypress\r 2) Navigate to cloned repo `cd automation-cypress`\r 3) Install dependencies `npm install`\r 4) Run Cypress UI `npx cypress open`",
+  "main": "index.js",
+  "scripts": {
+    "start": "my-server -p 3030",
+    "cy:run": "cypress run",
+    "test": "start-server-and-test start http://localhost:3030 cy:run"
+  },
+  "author": "Vishnu Baliga",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.12.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-localstorage-commands": "^2.2.6",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "moment": "^2.29.4"
+  }
+}
